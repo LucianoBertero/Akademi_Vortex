@@ -5,4 +5,8 @@ export class Empresa extends Cliente {
     super(nombre, ahorro);
     this.categoria = categoria;
   }
+
+  mostrarInfomacion() {
+    return `Cliente: ${this.nombre} - Ahorro: ${this.ahorro} - Categoria: ${this.categoria}`;
+  }
 }

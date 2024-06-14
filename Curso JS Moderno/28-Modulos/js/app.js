@@ -20,3 +20,4 @@ console.log(cliente.mostrarInfo());
 
 const empresa = new Empresa("Codigo con Juan", 100, "Aprendiendo en Linea");
 console.log(empresa);
+console.log(empresa.mostrarInfomacion());
