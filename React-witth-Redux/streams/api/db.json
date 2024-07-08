@@ -1,0 +1,33 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream",
+      "id": "1"
+    },
+    {
+      "id": "89e3",
+      "title": "i love pdf",
+      "description": "personas que amamos los pdf",
+      "userId": null
+    },
+    {
+      "id": "cd62",
+      "title": "i love pdf",
+      "description": "personas que amamos los pdf",
+      "userId": null
+    },
+    {
+      "id": "840e",
+      "title": "sASa",
+      "description": "sASSDA",
+      "userId": null
+    },
+    {
+      "id": "8b56",
+      "title": "asdasdas",
+      "description": "asdasasdasd",
+      "userId": null
+    }
+  ]
+}
