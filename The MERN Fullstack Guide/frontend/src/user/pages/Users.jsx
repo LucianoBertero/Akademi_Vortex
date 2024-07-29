@@ -1,5 +1,5 @@
 import React from "react";
-import { UserList } from "../components/UserList";
+import { UsersList } from "../components/UserList";
 
 export const Users = () => {
   const USERS = [
@@ -12,5 +12,5 @@ export const Users = () => {
     },
   ];
 
-  return <UserList items={USERS}></UserList>;
+  return <UsersList items={USERS}> </UsersList>;
 };
