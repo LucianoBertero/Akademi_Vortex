@@ -6,6 +6,75 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Acceso denegado</h1>
+    <main>
+      <style>
+        .card {
+          width: 300px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          transition: all 0.3s ease;
+          opacity: 0;
+          transform: translateY(20px);
+          animation: fadeIn 0.5s ease forwards;
+        }
+
+        @keyframes fadeIn {
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        .card:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-image {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+
+        .card-content {
+          padding: 20px;
+        }
+
+        .card-title {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+        }
+
+        .card-description {
+          color: #666;
+        }
+
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+      </style>
+
+      <div class="container">
+        <div class="card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Imagen de la tarjeta"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Título de la tarjeta</h2>
+            <p class="card-description">
+              Esta es una descripción de la tarjeta. Aquí puedes agregar más
+              detalles sobre el contenido de la tarjeta.
+            </p>
+            <h2>lorem ipsum dolor sit amet</h2>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

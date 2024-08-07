@@ -1,0 +1,18 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Otros archivos y carpetas comunes para ignorar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Ignorar archivos de Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
